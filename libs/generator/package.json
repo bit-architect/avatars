@@ -2,7 +2,6 @@
   "name": "@bit-architect/avatars-generator",
   "version": "0.0.1",
   "dependencies": {
-    "@paralleldrive/cuid2": "2.2.2",
     "tslib": "^2.3.0"
   },
   "type": "commonjs",
