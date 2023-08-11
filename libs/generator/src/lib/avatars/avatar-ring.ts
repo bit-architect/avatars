@@ -7,7 +7,7 @@ const SIZE = 90;
 const COLORS = 5;
 
 export class AvatarRing extends Avatar {
-  generate(options: GeneratorOptions): string {
+  createSVG(options: GeneratorOptions): string {
     const ringColors = this.generateColors(options.name, options.colors);
     const maskId = createId();
 

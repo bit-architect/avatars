@@ -7,7 +7,7 @@ const ELEMENTS = 4;
 const SIZE = 80;
 
 export class AvatarSunset extends Avatar {
-  override generate(options: GeneratorOptions): string {
+  override createSVG(options: GeneratorOptions): string {
     const sunsetColors = this.generateColors(options.name, options.colors);
     const maskId = createId();
 

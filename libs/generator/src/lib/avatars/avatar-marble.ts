@@ -7,7 +7,7 @@ const ELEMENTS = 3;
 const SIZE = 80;
 
 export class AvatarMarble extends Avatar {
-  generate(options: GeneratorOptions): string {
+  createSVG(options: GeneratorOptions): string {
     const properties = this.generateColors(options.name, options.colors);
     const maskId = createId();
 

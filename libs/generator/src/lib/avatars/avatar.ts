@@ -1,7 +1,14 @@
+import { optimize } from 'svgo';
 import { GeneratorOptions } from '../generator.options';
 
 export abstract class Avatar {
-  abstract generate(options: GeneratorOptions): string;
+  generate(options: GeneratorOptions): string {
+    const svg = this.createSVG(options);
+    const optimizedSvg = optimize(svg, {});
+    return optimizedSvg.data;
+  }
+
+  abstract createSVG(options: GeneratorOptions): string;
 
   protected createMask(maskId: string, size: number, isSquare: boolean) {
     return `

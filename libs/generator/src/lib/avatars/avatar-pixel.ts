@@ -7,7 +7,7 @@ const ELEMENTS = 64;
 const SIZE = 80;
 
 export class AvatarPixel extends Avatar {
-  generate(options: GeneratorOptions): string {
+  createSVG(options: GeneratorOptions): string {
     const pixelColors = this.generateColors(options.name, options.colors);
     const maskId = createId();
 
