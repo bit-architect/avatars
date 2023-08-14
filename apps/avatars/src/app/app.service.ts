@@ -1,6 +1,11 @@
 import {
   Avatar,
   AvatarBauhaus,
+  AvatarBeam,
+  AvatarMarble,
+  AvatarPixel,
+  AvatarRing,
+  AvatarSunset,
   GeneratorOptions,
 } from '@bit-architect/avatars-generator';
 import { BadRequestException, Injectable } from '@nestjs/common';
@@ -15,19 +20,19 @@ export class AppService {
         avatarBuilder = new AvatarBauhaus();
         break;
       case 'beam':
-        avatarBuilder = new AvatarBauhaus();
+        avatarBuilder = new AvatarBeam();
         break;
       case 'marble':
-        avatarBuilder = new AvatarBauhaus();
+        avatarBuilder = new AvatarMarble();
         break;
       case 'pixel':
-        avatarBuilder = new AvatarBauhaus();
+        avatarBuilder = new AvatarPixel();
         break;
       case 'ring':
-        avatarBuilder = new AvatarBauhaus();
+        avatarBuilder = new AvatarRing();
         break;
       case 'sunset':
-        avatarBuilder = new AvatarBauhaus();
+        avatarBuilder = new AvatarSunset();
         break;
       default:
         throw new BadRequestException(
