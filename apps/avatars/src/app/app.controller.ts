@@ -23,7 +23,7 @@ export class AppController {
     const queryOptions: Partial<GeneratorOptions> = {};
 
     queryOptions.name = name;
-    queryOptions.size = +query.size;
+    queryOptions.size = +query.size || defaultAvatarOptions.size;
 
     if ('square' in query) {
       queryOptions.isSquare = true;
