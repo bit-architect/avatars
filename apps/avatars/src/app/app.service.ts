@@ -2,6 +2,7 @@ import {
   Avatar,
   AvatarBauhaus,
   AvatarBeam,
+  AvatarGenerator,
   AvatarMarble,
   AvatarPixel,
   AvatarRing,
@@ -42,7 +43,7 @@ export class AppService {
         );
     }
 
-    const avatar = avatarBuilder.generate(options);
+    const avatar = new AvatarGenerator().generate(avatarBuilder, options);
     return avatar;
   }
 }

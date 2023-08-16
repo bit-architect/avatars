@@ -12,7 +12,7 @@ import { Avatar } from './avatar';
 const SIZE = 36;
 
 export class AvatarBeam extends Avatar {
-  createSVG(options: GeneratorOptions): string {
+  create(options: GeneratorOptions): string {
     const data = this.generateData(options.name, options.colors);
     const maskId = createId();
 

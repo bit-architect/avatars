@@ -7,7 +7,7 @@ const ELEMENTS = 4;
 const SIZE = 80;
 
 export class AvatarBauhaus extends Avatar {
-  override createSVG(options: GeneratorOptions): string {
+  override create(options: GeneratorOptions): string {
     const properties = this.generateColors(options.name, options.colors);
     const maskId = createId();
 

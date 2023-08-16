@@ -1,4 +1,5 @@
 export * from './lib/generator.options';
+export * from './lib/avatar.generator';
 export * from './lib/avatars/avatar-bauhaus';
 export * from './lib/avatars/avatar-beam';
 export * from './lib/avatars/avatar-marble';
