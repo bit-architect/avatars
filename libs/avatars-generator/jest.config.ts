@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default {
-  displayName: 'generator',
+  displayName: 'avatars-generator',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/libs/generator',
+  coverageDirectory: '../../coverage/libs/avatars-generator',
 };

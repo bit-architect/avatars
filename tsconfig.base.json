@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bit-architect/avatars-generator": ["libs/generator/src/index.ts"]
+      "@avatars/avatars-generator": ["libs/avatars-generator/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,6 +1,6 @@
 import { Controller, Get, Header, Param, Query } from '@nestjs/common';
 import { AppService } from './app.service';
-import { GeneratorOptions } from '@bit-architect/avatars-generator';
+import { GeneratorOptions } from '@avatars/avatars-generator';
 
 const defaultAvatarOptions: GeneratorOptions = {
   name: '',

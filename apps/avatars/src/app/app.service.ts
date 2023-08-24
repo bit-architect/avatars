@@ -8,7 +8,7 @@ import {
   AvatarRing,
   AvatarSunset,
   GeneratorOptions,
-} from '@bit-architect/avatars-generator';
+} from '@avatars/avatars-generator';
 import { BadRequestException, Injectable } from '@nestjs/common';
 
 const availableTypes = ['bauhaus', 'beam', 'marble', 'pixel', 'ring', 'sunset'];
