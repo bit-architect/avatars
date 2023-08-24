@@ -42,6 +42,16 @@
           "codeCoverage": true
         }
       }
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "outputPath": "dist/libs/avatars-generator",
+        "github": true,
+        "changelog": true,
+        "npm": true,
+        "tagFormat": "avatars-generator-v${VERSION}"
+      }
     }
   },
   "tags": []
