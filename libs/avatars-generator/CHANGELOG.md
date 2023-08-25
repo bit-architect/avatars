@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bit-architect/avatars/compare/avatars-generator-v1.0.0...avatars-generator-v1.0.1) (2023-08-25)
+
+
+### Bug Fixes
+
+* **avatars-generator:** fix package name ([e354f31](https://github.com/bit-architect/avatars/commit/e354f3163595df3efec81b0f350d7842d5e91056))
+
 # 1.0.0 (2023-08-25)
 
 
